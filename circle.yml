@@ -1,11 +1,10 @@
 test:
   override:
-    - sleep 10
     - echo 'tested'
 
 deployment:
   production:
     branch: master
     commands:
-      - sleep 40 
+      - sleep 90 
       - echo 'deployed' 
